@@ -1,0 +1,16 @@
+{
+  "name": "@ts/utils",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "workspaces": [
+    "day_1/typescript"
+  ]
+}
