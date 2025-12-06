@@ -46,6 +46,18 @@
         "typescript": "^5",
       },
     },
+    "day_4/typescript": {
+      "name": "day_4",
+      "dependencies": {
+        "@ts/utils": "*",
+      },
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
     "utils/typescript": {
       "name": "@ts/utils",
       "devDependencies": {
@@ -70,6 +82,8 @@
     "day_2": ["day_2@workspace:day_2/typescript"],
 
     "day_3": ["day_3@workspace:day_3/typescript"],
+
+    "day_4": ["day_4@workspace:day_4/typescript"],
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
